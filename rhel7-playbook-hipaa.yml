@@ -32,7 +32,7 @@
 #
 ###############################################################################
 
- - hosts: "{{ hosts_var }}"
+ - hosts: all
    pre_tasks:
      - name: Verify Ansible meets SCAP-Security-Guide version requirements.
        assert:
